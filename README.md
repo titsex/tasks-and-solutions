@@ -6,3 +6,6 @@
 - [delay](src/solutions/delay.ts)
 - [fibonacci](src/solutions/fibonacci.ts)
 - [palindrome](src/solutions/palindrome.ts)
+- [sum](src/solutions/sum.ts)
+- [unique](src/solutions/unique.ts)
+- [flatten](src/solutions/flatten.ts)

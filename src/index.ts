@@ -21,3 +21,20 @@ console.log(anagram('heart', 'earth')) // true
 // Fibonacci
 import { fibonacci } from '@solution/fibonacci'
 console.log(fibonacci(7)) // 13
+
+// A callable function that sums up all the arguments passed.
+import { sum } from '@solution/sum'
+console.log(sum(5)(5)(3)) // 13
+
+// A function that checks the uniqueness of text characters.
+import { unique } from '@solution/unique'
+console.log(unique('hello')) // false
+console.log(unique('cow')) // true
+
+// A function that takes in an array and returns a one-dimensional array.
+import { flatten } from '@solution/flatten'
+console.log(flatten([1, [2], [[[[[[4, [5]]]], [7]]]]])) // [1, 2, 4, 5, 7]
+
+//
+import { brackets } from '@solution/brackets'
+console.log(brackets('{ a: [1, 2], b: () => { console.log(1) } {{ }'), 'dsa')
