@@ -1,9 +1,7 @@
 # tasks-and-solutions
- I collected a number of popular tasks that are asked at interviews and solved them.
+I collected a number of popular tasks that are asked at interviews and solved them.
 
-```
-PS: If you know the solution better than mine, do not be angry, because I solved the puzzles myself, and their solutions are the first thing that came to my mind.
-```
+_If you know the solution better than mine, do not be angry, because I solved the puzzles myself, and their solutions are the first thing that came to my mind_
 
 - [anagram](src/solutions/anagram.ts)
 - [debounce](src/solutions/debounce.ts)
