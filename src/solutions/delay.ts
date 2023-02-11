@@ -17,14 +17,3 @@ export function delay(callback: Function, delay: number): Function {
         setTimeout(() => callback(...args), delay)
     }
 }
-
-/**
- * @name someFn
- * @description Some kind of function to check.
- */
-function someFn(): void {
-    console.log(arguments)
-}
-
-// This is an example of how our function works.
-export const someFnWithDelay: Function = delay(someFn, 5000)

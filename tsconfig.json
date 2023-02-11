@@ -15,6 +15,7 @@
     "outDir": "build",
     "incremental": true,
     "baseUrl": "./src",
+    "types": ["node", "jest"],
     "paths": {
       "@solution/*": ["solutions/*"]
     }
