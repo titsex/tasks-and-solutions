@@ -11,3 +11,4 @@ _If you know the solution better than mine, do not be angry, because I solved th
 - [sum](src/solutions/sum.ts)
 - [unique](src/solutions/unique.ts)
 - [flatten](src/solutions/flatten.ts)
+- [factorial](src/solutions/factorial.ts)

@@ -3,7 +3,6 @@
  * @description Checks if two words have the same letters.
  * @param {string} word1
  * @param {string} word2
- * @return {boolean} true of false
  */
 export function anagram(word1: string, word2: string): boolean {
     if (!word1 || !word2) return false

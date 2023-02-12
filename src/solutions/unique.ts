@@ -8,7 +8,6 @@
  * @name unique
  * @description Checks whether the text characters are unique.
  * @param {string} text
- * @return {boolean} true or false
  */
 export function unique(text: string): boolean {
     if (!text) return false

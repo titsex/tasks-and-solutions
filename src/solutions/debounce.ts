@@ -13,7 +13,6 @@
  * @param {Function} callback
  * @param {number} time
  * @description Calls the function only once during the specified time period.
- * @return {Function} A function that will be called only once in the specified time.
  */
 export function debounce(callback: Function, time: number): Function {
     let timer: null | NodeJS.Timeout = null

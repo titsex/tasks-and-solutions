@@ -8,7 +8,6 @@
  * @name palindrome
  * @param {string} word
  * @description Checks whether a word is a palindrome.
- * @return {boolean} true of false
  */
 export function palindrome(word: string): boolean {
     if (!word) return false

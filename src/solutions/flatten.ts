@@ -14,7 +14,6 @@
  * @name flatten
  * @description Iterates through nested arrays and returns a one-dimensional array with values.
  * @param {Array} array
- * @return {Array} One-dimensional array
  */
 export function flatten(array: unknown[]): unknown[] {
     const result: unknown[] = []
