@@ -6,7 +6,7 @@ const jestConfig: JestConfigWithTsJest = {
         '^.+\\.(ts|tsx)$': 'ts-jest',
     },
     moduleNameMapper: {
-        '/^solution/(.*)$/': '<rootDir>/src/solutions/$1',
+        '@solution(.*)$': '<rootDir>/src/solutions/$1',
     },
 }
 

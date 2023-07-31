@@ -1,4 +1,4 @@
-import { palindrome } from '../src/solutions/palindrome'
+import { palindrome } from '@solution/palindrome'
 
 describe('anagram is correct', () => {
     test('correct value', () => {

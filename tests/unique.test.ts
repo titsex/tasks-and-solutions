@@ -1,4 +1,4 @@
-import { unique } from '../src/solutions/unique'
+import { unique } from '@solution/unique'
 
 describe('anagram is correct', () => {
     test('correct value', () => {

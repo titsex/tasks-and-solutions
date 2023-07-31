@@ -14,11 +14,12 @@
     "forceConsistentCasingInFileNames": true,
     "outDir": "build",
     "incremental": true,
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "types": ["node", "jest"],
     "paths": {
-      "@solution/*": ["solutions/*"]
+      "@solution/*": ["src/solutions/*"],
+      "@test/*": ["tests/*"]
     }
   },
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*", "./tests/**/*"]
 }

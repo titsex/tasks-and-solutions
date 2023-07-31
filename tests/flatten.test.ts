@@ -1,4 +1,4 @@
-import { flatten } from '../src/solutions/flatten'
+import { flatten } from '@solution/flatten'
 
 describe('anagram is correct', () => {
     test('correct value', () => {

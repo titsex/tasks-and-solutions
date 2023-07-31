@@ -1,4 +1,4 @@
-import { sum } from '../src/solutions/sum'
+import { sum } from '@solution/sum'
 
 test('sum is correct', () => {
     const spy = jest.spyOn(console, 'log')

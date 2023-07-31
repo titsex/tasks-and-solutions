@@ -1,4 +1,4 @@
-import { combinatorics } from '../src/solutions/combinatorics'
+import { combinatorics } from '@solution/combinatorics'
 
 describe('combinatorics is correct', () => {
     test('correct value', () => {

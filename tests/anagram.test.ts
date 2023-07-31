@@ -1,4 +1,4 @@
-import { anagram } from '../src/solutions/anagram'
+import { anagram } from '@solution/anagram'
 
 describe('anagram is correct', () => {
     test('correct value', () => {
